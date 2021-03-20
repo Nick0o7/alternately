@@ -181,7 +181,7 @@
 
     .text-field {
       height: 48px;
-      width:340px;
+      width:60%;
       padding: 10px 16px;
       border: 2px solid transparent;
       border-radius: 4px;
@@ -495,7 +495,7 @@
   .text-field{
     width: 180px;
   }
-  
+
 }
 
 
