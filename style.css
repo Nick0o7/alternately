@@ -472,6 +472,11 @@ hr{
 
 @media screen and (max-width:1200px)
 {
+
+  .container{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   .text-field
   {
     width:300px;
@@ -480,6 +485,11 @@ hr{
 
 @media screen and (max-width:1120px)
 {
+  .container{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
   .text-field
   {
     width:230px;
@@ -499,6 +509,11 @@ hr{
 @media screen and (max-width:1120px)
 {
 
+  .container{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
   .text-field
   {
     width:180px;
@@ -513,6 +528,11 @@ hr{
   
 @media screen and (max-width:900px)
 {
+
+  .container{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
   .row{
     flex-wrap: wrap;
@@ -532,6 +552,12 @@ hr{
 @media screen and (max-width:560px)
 {
 
+  .container{
+    padding-left: 40px;
+    padding-right: 40px;
+  } 
+    
+
   .hero-title{
     font-size:50px;
   }
@@ -542,8 +568,8 @@ hr{
 {
 
   .container{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .section-title.in-half-div
@@ -568,6 +594,10 @@ hr{
 @media screen and (max-width:460px)
 {
 
+  .container{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   .hero-title{
     font-size: 30px;
   }
