@@ -472,28 +472,6 @@
       margin-top:140px;
     }
 
-@media screen and (max-width:900px)
-{
-  
-  .container{
-    padding-left:10px;
-    padding-right:10px;
-  }
-
-  .hero-title{
-    font-size: 50px;
-  }
-}
-
-@media screen and (max-width:1000px)
-{
-  
-
-  .text-field{
-    width: 180px;
-  }
-
-}
 
 
 
