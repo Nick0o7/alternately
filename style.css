@@ -491,7 +491,7 @@
   }
 
   .col-2{
-    min-width: 355px;
+    max-width: 355px;
   }
 
   .text-field{
