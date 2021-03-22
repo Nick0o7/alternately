@@ -471,6 +471,10 @@
       margin-top:140px;
     }
 
+    #row1{
+      margin-top: 50px;
+    }
+
 @media only screen and (max-width:650px)
 {
   *{
@@ -500,6 +504,10 @@
 
   .dropbtn{
     width:325px;
+  }
+
+  #row1{
+    margin-top: 10px;
   }
 }
 
