@@ -2,7 +2,6 @@
     *{
         margin:0;
         padding:0;
-        max-width: 100%;
         -webkit-box-sizing:border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;	
@@ -474,6 +473,10 @@
 
 @media only screen and (max-width:650px)
 {
+  *{
+    max-width: 100%;
+  }
+
   .container{
     padding-left: 10px;
     padding-right: 10px;
