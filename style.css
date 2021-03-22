@@ -507,37 +507,7 @@
   }
 }
 
-@media only screen and (min-width:450px)
-{
-  *{
-    max-width: 100%;
-  }
 
-  .container{
-    padding-left: 18px;
-    padding-right: 18px;
-  }
-
-  .hero-title{
-    font-size: 40px;
-  }
-
-  .col-2{
-    min-width: 340px;
-  }
-
-  .text-field{
-    width:46%;
-  }
-
-  .dropbtn{
-    width:325px;
-  }
-
-  #row1{
-    margin-top: 10px;
-  }
-}
 
 
 
