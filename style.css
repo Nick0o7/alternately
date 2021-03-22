@@ -486,6 +486,14 @@
   .col-2{
     min-width: 340px;
   }
+
+  .text-field{
+    width:50%;
+  }
+
+  #row1{
+    margin-top: 0px;
+  }
 }
 
 
