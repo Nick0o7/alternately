@@ -224,6 +224,9 @@
   }
 
   .submit-btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     margin-top: 16px;
     margin-right: 16px;
     padding: 10px 20px;
