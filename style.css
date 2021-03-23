@@ -35,14 +35,7 @@
   }
 
   .col-2{
-      flex-basis:50%;
-      min-width:400px;
-  }
-
-  .col-3{
-    flex-basis:30%;
-    min-width:250px;
-    margin-bottom:30px;
+      flex-basis:50%;  
   }
 
   h1 {
@@ -171,12 +164,9 @@
   .hero-email-form {
       margin-top: 48px;
       margin-bottom: 0px;
+      width:100%;
   }
 
-  .w-form
-  {
-  margin:0 0 15px
-  }
 
   .text-field {
     height: 48px;
@@ -231,10 +221,6 @@
 
   .text-field.big {
       height: 56px;
-  }
-
-  w-form{
-  margin:0 0 15px
   }
 
   .submit-btn {
@@ -475,31 +461,157 @@
     margin-top: 50px;
   }
 
-  .dropdown-columns{
-    display:block;
-  }
-@media only screen and (max-width:450px)
-{
-
-  .row{
-    display:block;
-  }
-
-  .container
+  #about-me-img
   {
-    padding-left: 10px;
-    padding-right: 10px;
+    width:100%;
   }
 
-  .col-2{
-    min-width: 200px;
+  @media only screen and (max-width:600px)
+  {
+  
+    .row{
+      display:block;
+    }
+  
+    .container
+    {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .col-2{
+      min-width: 200px;
+    }
+  
+    .hero-title{
+      font-size: 40px;
+    }
+  
+    .text-field{
+      width:98%;
+    }
+  
+    .submit-btn.no-margin-top {
+      margin-left:0px;
+      margin-top:20px;
+    }
+  
+    .submit-btn{
+      width:98%;
+    }
+  
   }
 
-  .hero-title{
-    font-size: 35px;
+  @media only screen and (min-width:600px)
+  {
+  
+    .col-2{
+      min-width:500px;
+    }
+  
+    .text-field{
+      width:98%;
+    }
+  
+    .submit-btn.no-margin-top {
+      margin-left:0px;
+      margin-top:20px;
+    }
+  
+    .submit-btn{
+      width:98%;
+    }
+  
+    #row4{
+      display: block;
+    }
+    
+  
+  }
+  
+  @media only screen and (min-width:700px)
+  {
+  
+    .col-2{
+      min-width:600px;
+    }
+  
+    .text-field{
+      width:98%;
+    }
+  
+    .submit-btn.no-margin-top {
+      margin-left:0px;
+      margin-top:20px;
+    }
+  
+    .submit-btn{
+      width:98%;
+    }
+  
+    .paragraph-4.about-me{
+      font-size:20px;
+    }
+  
+    #row4{
+      display: block;
+    }
+  }
+  
+  @media only screen and (min-width:800px)
+  {
+  
+    .col-2
+    {
+      min-width: 300px;
+    }
+    
+    .hero-title{
+      font-size:40px;
+    }
+  
+    #row1{
+      margin-top: 0px;
+    }
+  
+    .paragraph-4.about-me{
+      font-size: 14px;
+    }
+  
+    #about-me-col{
+      margin-top:80px;
+    }
+  
+  }
+  
+  @media only screen and (min-width:1000px)
+  {
+  
+    .text-field{
+      width:40%;
+    }
+  
+    .submit-btn{
+      width:40%;
+    }
+  
+    .submit-btn.no-margin-top{
+      margin-left: 10px;
+      margin-top: 0px;
+    }
+  
   }
 
-}
+
+  @media only screen and (min-width:1200px)
+  {
+
+    all:initial;
+
+  }
+
+  
+
 
 
 
