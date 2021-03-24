@@ -224,9 +224,6 @@
   }
 
   .submit-btn {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
     margin-top: 16px;
     margin-right: 16px;
     padding: 10px 20px;
@@ -325,6 +322,7 @@
       display: inline-block;
       padding-top: 20px;
       width:100%;
+      height: fit-content;
     }
 
     .dropdown-content {
@@ -345,7 +343,9 @@
     }
 
 
-    .show {display:block;}
+    .show {
+		display:block;
+	  }
 
     .hide
     {
@@ -468,6 +468,63 @@
   {
     width:100%;
   }
+
+  .myMenu{
+    background-color: #151720;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width:100%;
+  }
+
+  .dropDownMenu a{
+    color:#fff;
+    width:100%;
+  }
+
+.dropDownMenu,
+.dropDownMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  width:100%;
+}
+.dropDownMenu li {
+	position: relative;
+  width:100%;
+}
+
+.dropDownMenu li a {
+  width:100%;
+}
+.dropDownMenu a {
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+  width:100%
+}
+
+.dropDownMenu > li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -4px; /* solve the 4 pixels spacing between list-items */
+  width:100%;
+}
+.dropDownMenu > li:first-child {
+	margin-left: 0;
+  width:100%;
+}
+
+.dropDownMenu > li > ul {
+	text-align: left;
+  background-color: #151720;
+  border-radius: 8px;
+	display: none;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	z-index: 999999; 
+}
+
 
   @media only screen and (max-width:600px)
   {
