@@ -439,10 +439,11 @@
 
   hr{
     border:1px solid #2D2F37;
+    margin-top:20px;
   }
 
   .copyright-text {
-    margin-top:10px;
+    margin-top:15px;
     font-family: 'Space Grotesk', sans-serif;
     color: #c2c3c5;
     font-size: 12px;
@@ -525,6 +526,14 @@
 	z-index: 999999; 
 }
 
+.col-3{
+  flex-basis: 30%;
+}
+
+.footer-img
+{
+  width:100px;
+}
 
   @media only screen and (max-width:600px)
   {
@@ -559,6 +568,19 @@
     .submit-btn{
       width:98%;
     }
+
+    .col-3{
+      text-align: center;
+      margin-top:25px;
+    }
+
+    #row4{
+      margin-top:120px;
+    }
+
+    .footer-img{
+      width:120px;
+    }
   
   }
 
@@ -581,11 +603,10 @@
     .submit-btn{
       width:98%;
     }
-  
-    #row4{
-      display: block;
+
+    .col-3{
+      text-align: center;
     }
-    
   
   }
   
@@ -612,10 +633,11 @@
     .paragraph-4.about-me{
       font-size:20px;
     }
-  
-    #row4{
-      display: block;
+
+    .col-3{
+      text-align: center;
     }
+    
   }
   
   @media only screen and (min-width:800px)
@@ -662,13 +684,19 @@
   
   }
 
-
-  @media only screen and (min-width:1200px)
+  @media only screen and (min-width:1100px)
   {
 
-    all:initial;
+    .col-3{
+      text-align: initial;
+    }
 
+    .hero-title{
+      font-size: 60px;
+    }
   }
+
+
 
   
 
