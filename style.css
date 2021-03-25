@@ -242,6 +242,8 @@
     letter-spacing: 0.4px;
     text-decoration: none;
     text-transform: capitalize;
+    -webkit-appearance: none;
+    appearance: none;
   }
 
   .submit-btn:hover {
