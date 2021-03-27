@@ -476,7 +476,6 @@
     background-color: #151720;
     border-radius: 8px;
     margin-bottom: 20px;
-    width:100%;
   }
 
   .dropDownMenu a{
@@ -535,6 +534,23 @@
 .footer-img
 {
   width:100px;
+}
+
+.col-custom{
+  background-color: #f9d243;
+  height:200px;
+}
+
+.col-1{
+  flex-basis: 100%;
+}
+
+span{
+  color:#303fe1;
+}
+
+.container-5{
+  margin-top:100px;
 }
 
   @media only screen and (max-width:600px)
